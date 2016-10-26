@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/widget.css">
+	</head>
+	<body>
+		<img src="img/bg.png" />
+		<div id="widget">
+			<div id="handler">
+				<p>INICIAR VENDA</p>
+			</div>
+			<div id="widget-body">
+				<div id="step1">
+					<div class="main-holder">
+						<form id="main-widget-form">
+							<p>SOLICITE O CÓDIGO DO CLIENTE</p>
+							<input class="widget-input" type="number" id="client-code"></input>
+							<p>VALOR TOTAL (R$)</p>
+							<input class="widget-input" type="number" id="total-value"></input>
+						</form>
+					</div>
+					<div class="btn-holder">
+						<div class="btn" id="confirmar">
+							<p>CONFIRMAR</p>
+						</div>
+					</div>
+				</div>
+				<div id="step2">
+					<div class="main-holder">
+						<div id="waitingPayment"><p id="waitingPaymentLoader">.</p></div>
+						<p>Solicitação de pagamento enviada. Por favor aguarde confirmação do cliente.</p>
+					</div>
+					<div class="btn-holder">
+						<div class="btn" id="cancelar">
+							<p>CANCELAR</p>
+						</div>
+					</div>
+				</div>
+				<div id="step3">
+					<div class="main-holder">
+						<div class="imgHolder">
+							<img id="success" src="img/success.png" />
+						</div>
+						<p>PAGAMENTO REALIZADO COM SUCESSO!</p>
+					</div>
+					<div class="btn-holder">
+						<div class="btn" id="novaVenda">
+							<p>INICIAR NOVA VENDA</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/widget.js"></script>
+</html>

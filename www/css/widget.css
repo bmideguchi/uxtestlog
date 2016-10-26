@@ -1,0 +1,84 @@
+img{
+	width: 100%;
+}
+
+p{
+	color: #FFF;
+	font-family: arial;
+	text-align: center;
+	padding: 5px;
+}
+
+#widget{
+	position: fixed;
+	bottom: 0;
+	right: 40px;
+	margin-bottom: -270px;
+}
+
+#handler{
+	background-color: #1D2350;
+	border-radius: 10px 10px 0 0;
+	cursor: pointer;
+	padding: 3px;
+}
+
+#widget-body{
+	background-color: #8DC63F;
+	padding: 20px;
+}
+
+.widget-input{
+	border: 0;
+	padding: 10px;
+	text-align: center;
+	color: #1D2350;
+	font-size: 14px;
+	font-weight: bold;
+	width: 100%;
+	border-radius: 5px 5px 5px 0;
+	margin-bottom: 20px;
+}
+
+.btn{
+	padding: 10px;
+	text-align: center;
+	color: #FFF;
+	background-color: #006838;
+	border-radius: 5px 5px 5px 0;
+	cursor: pointer;
+	position: relative;
+	bottom: 0;
+	left: 0;
+}
+
+#step1, #step2, #step3{
+	width: 210px;
+}
+
+#step2, #step3{
+	display: none;
+}
+
+#success{
+	width: 30px;
+	height: 30px;
+	margin: 0px auto 20px auto;
+	display: block;
+}
+
+.imgHolder{
+	width: 100%;
+}
+
+#cancelar{
+	background-color: #EE1D25;
+}
+
+.main-holder{
+	height: 190px;
+}
+
+.btn-holder{
+
+}
